@@ -12,12 +12,26 @@ public class Principal{
         
         System.out.println("Nome    : ");
         cliente.setNome(sc.nextLine());
+        
         System.out.println("Endereço: ");
         cliente.setEndereco(sc.nextLine());
+       
         System.out.println("CPF     : ");
         cliente.setCpf(sc.nextLine());
+        
         System.out.println("Contato : ");
         cliente.setContato(sc.nextLine());
+
+        System.out.println("");
+        System.out.println("Descrição do veículo e suas características");
+        System.out.println("");
+
+        System.out.println("Descrição:");
+        veiculo.setDescricao(sc.nextLine());
+
+        System.out.println("Placa:");
+        veiculo.se
+        System.out.println("Ano:");
 
     }
 }

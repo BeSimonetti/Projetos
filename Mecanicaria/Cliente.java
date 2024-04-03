@@ -4,7 +4,7 @@ public class Cliente {
     private String cpf;
     private String contato;
 
-    public void setNome(Strin nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
     public void setEndereco(String endereco){
@@ -13,7 +13,7 @@ public class Cliente {
     public void setCpf(String cpf){
         this.cpf = cpf;
     }
-    public void setContato(Strin contato){
+    public void setContato(String contato){
         this.contato = contato;
     }
     

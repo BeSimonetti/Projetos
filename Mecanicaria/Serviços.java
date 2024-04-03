@@ -12,10 +12,16 @@ public class Serviços {
     public void setDescricao(String descricao){
         this.descricao = descricao;
     }
-    public void setValor(double tempo){
+    public void setTempo(double tempo){
         this.tempo = tempo;
     }
     public double getValor(){
-        return this 
+        return this.valor;
+    }
+    public String getDescricao(){
+        return this.descricao;     
+    }
+    public double getTempo(){
+        return this.tempo;
     }
 }
